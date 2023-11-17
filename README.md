@@ -1,4 +1,5 @@
 # Tugas-UTS-Fibonacci
+
 Nama : Wafha Zahra Mulqiya
 
 NIM : 312210577
@@ -11,22 +12,27 @@ Dosen Pengampu : Donny Maulana, S.Kom.,M.M.S.I.
 
 Tugas : Membuat Method Program java Toast Number, dengan menghasilkan Bilangan Fibonacci
 
-Daftar Isi
-No.	DAFTAR ISI	Here
-1.	Layout	Click Here
-2.	Java	Click Here
-3.	Hasil Run	Click Here
-Disini, saya akan mengerjakan dan menjelaskan tugas dari mata kuliah "Pemrograman Mobile 1" yaitu membuat sebuah aplikasi untuk menampilkan bilangan Fibonacci. Selain itu saya juga akan merubah sedikit tampilan dari yang diperintahkan pada tugas, yaitu menambah tombol Restart dan menambah tombol Masukkan Angka Limit
-Layout
-Pada layout ini, saya membuat tiga button dan satu textview :
+## Daftar Isi
+| No.| DAFTAR ISI |        Here                           |
+|----|------------|----------------------------------------|
+| 1. | Layout     | [Click Here](#layout)               |
+| 2. | Java       | [Click Here](#java-class)     |
+| 3. | Hasil Run  | [Click Here](#hasil-run)            |
 
-button_limit, berfungsi sebagai tombol “Set Limit” yang nantinya ketika di tekan akan muncul sebuah pop-up untuk masukan limit angka yang ingin kita hitung.
-button_count, berfungsi sebagai tombol “count” yang nantinya ketika tombol ditekan akan menghitung bilangan fibonaccinya sesuai dengan yang kita limit. Juga berbeda warna pada setiap angka, agar tidak keliru.
-button_restart, berfungsi sebagai tombol restart yang nantinya angka akan kembali ke awal.
-show_count, yang berfungsi untuk menampilkan angka atau bilangan fibonaccinya yang tepat berada di tengah.
+> - Disini, saya akan mengerjakan dan menjelaskan tugas dari mata kuliah "Pemrograman Mobile 1" yaitu membuat sebuah aplikasi untuk menampilkan bilangan Fibonacci. Selain itu saya juga akan merubah sedikit tampilan dari yang diperintahkan pada tugas, yaitu menambah tombol `Restart` dan menambah tombol `Masukkan Angka Limit` 
+
+
+## Layout
+Pada layout ini, saya membuat tiga button dan satu textview :
+1. `button_limit`, berfungsi sebagai tombol “Set Limit” yang nantinya ketika di tekan akan muncul sebuah pop-up untuk masukan limit angka yang ingin kita hitung.
+2. `button_count`, berfungsi sebagai tombol “count” yang nantinya ketika tombol ditekan akan menghitung bilangan fibonaccinya sesuai dengan yang kita limit. Juga berbeda warna pada setiap angka, agar tidak keliru.
+3. `button_restart`, berfungsi sebagai tombol restart yang nantinya angka akan kembali ke awal.
+4. `show_count`, yang berfungsi untuk menampilkan angka atau bilangan fibonaccinya yang tepat berada di tengah.
+
 Berikut adalah coding pada menu layout :
 
-activity_main.xml
+> - **activity_main.xml**
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -95,7 +101,10 @@ activity_main.xml
         app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-Strings.xml
+```
+
+> - **Strings.xml**
+```
 <resources>
     <string name="app_name">Fibonacci</string>
     <string name="button_label_toast">Toast</string>
@@ -105,7 +114,10 @@ Strings.xml
     <string name="set_Limit">Set limit</string>
     <string name="Reset">Reset</string>
 </resources>
-Colors.xml
+```
+
+> - **Colors.xml**
+```
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
@@ -125,9 +137,12 @@ Colors.xml
     <color name="orange">#FF9800</color>
     <color name="cream">#E6C18A</color>
 </resources>
-Java class
-Pada Java class MainActivity.java berisi semua coding untuk menjalankan aplikasi. Seperti fungsi untuk tombol-tombol, dialog set limit, warna yang berbeda pada setiap angka, lalu warna background yang bisa berubah dan rumus bilangan fibonacci.
+```
 
+
+## Java class
+Pada Java class `MainActivity.java` berisi semua coding untuk menjalankan aplikasi. Seperti fungsi untuk tombol-tombol, dialog set limit, warna yang berbeda pada setiap angka, lalu warna background yang bisa berubah dan rumus bilangan fibonacci.
+```
 package com.example.fibonacci;
 
 import android.app.AlertDialog;
@@ -252,7 +267,14 @@ public class MainActivity extends AppCompatActivity {
         builder.show();
     }
 }
-Hasil Run
+```
 
-https://github.com/wafhazahra08/Tugas-UTS-Fibonacci/assets/131223804/de5f04d1-d210-4f84-8a0a-99a622d677de
+
+## Hasil Run 
+
+
+
+
+https://github.com/Doflamingo20/mobile/assets/130146099/e191464f-31f5-4110-99bc-b2343f1e175c
+
 
