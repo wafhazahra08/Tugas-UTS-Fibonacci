@@ -273,8 +273,6 @@ public class MainActivity extends AppCompatActivity {
 ## Hasil Run 
 
 
-
-
-https://github.com/wafhazahra08/Tugas-UTS-Fibonacci/issues/1#issue-1998314087
+https://github.com/wafhazahra08/Tugas-UTS-Fibonacci/assets/131223804/de5f04d1-d210-4f84-8a0a-99a622d677de
 
 
